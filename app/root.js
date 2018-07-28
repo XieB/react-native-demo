@@ -13,6 +13,7 @@ import ProgressScreen from './component/Progress';
 import JokeScreen from './component/Joke';
 import RefreshScreen from './component/Refresh';
 import SliderScreen from './component/Slider';
+import WebScreen from './component/Web';
 
 const App = StackNavigator({
     Home: { screen: HomeScreen },
@@ -25,7 +26,8 @@ const App = StackNavigator({
     Picker: {screen: PickerScreen},
     Progress: {screen: ProgressScreen},
     Refresh: {screen: RefreshScreen},
-    Slider: {screen: SliderScreen}
+    Slider: {screen: SliderScreen},
+    Web: {screen: WebScreen}
 });
 
 

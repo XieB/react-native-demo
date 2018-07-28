@@ -83,6 +83,14 @@ export default class HomeScreen extends React.Component {
                         }
                     />
                 </View>
+                <View style={styles.button}>
+                    <Button
+                        title="Go to Web"
+                        onPress={() =>
+                            navigate('Web')
+                        }
+                    />
+                </View>
             </View>
         );
     }
